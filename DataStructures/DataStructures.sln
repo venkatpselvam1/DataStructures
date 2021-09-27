@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "008_Trie", "008_Trie", "{2C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_PriorityQueue", "001_PriorityQueue\001_PriorityQueue.csproj", "{D6D189DF-E54A-48D2-A77D-49B76DE6509C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_PriorityQueue", "002_PriorityQueue\002_PriorityQueue.csproj", "{CEB513C0-DFFE-4B38-AB0E-84D9F154274C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,12 +39,17 @@ Global
 		{D6D189DF-E54A-48D2-A77D-49B76DE6509C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6D189DF-E54A-48D2-A77D-49B76DE6509C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6D189DF-E54A-48D2-A77D-49B76DE6509C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB513C0-DFFE-4B38-AB0E-84D9F154274C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB513C0-DFFE-4B38-AB0E-84D9F154274C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB513C0-DFFE-4B38-AB0E-84D9F154274C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB513C0-DFFE-4B38-AB0E-84D9F154274C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D6D189DF-E54A-48D2-A77D-49B76DE6509C} = {91B7C62E-E6F9-45E6-A398-4E637F2C104D}
+		{CEB513C0-DFFE-4B38-AB0E-84D9F154274C} = {91B7C62E-E6F9-45E6-A398-4E637F2C104D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3ED057B1-820A-48CA-A31F-4BE40FA16A64}
