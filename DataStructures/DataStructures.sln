@@ -5,6 +5,22 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{8BF0CAF7-1005-4C93-95D1-FF1E7DBB538F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001_Array", "001_Array", "{6D2AF06F-EF6C-43AE-BE47-B19F615DEF7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "002_LinkedList", "002_LinkedList", "{133896C5-B4E9-4436-A35C-DD22840D01CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "003_DoubleLinkedList", "003_DoubleLinkedList", "{4BE3A213-3189-408B-9129-4243B5B88797}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "004_Stack", "004_Stack", "{A99AE832-70AE-4B1A-B1AC-CE3D524C167C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "005_Queue", "005_Queue", "{AD1021CC-849C-449B-B2A5-E1DA45F903A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "006_PriorityQueue", "006_PriorityQueue", "{91B7C62E-E6F9-45E6-A398-4E637F2C104D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "007_Tree", "007_Tree", "{6868BCEA-C1E6-490B-8BCA-E150FB39F302}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "008_Trie", "008_Trie", "{2C651323-A65A-4A76-89CE-8316A009494A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
