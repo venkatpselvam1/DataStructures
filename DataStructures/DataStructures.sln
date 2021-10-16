@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001_Basics", "001_Basics", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Graph", "001_Graph\001_Graph.csproj", "{010A04DD-3601-4911-85C3-1F73FB15CDFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_AdjacencyMatrix_Graph", "002_AdjacencyMatrix_Graph\002_AdjacencyMatrix_Graph.csproj", "{AE71C567-DABF-4B02-8F8E-BEF156EEA10E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{010A04DD-3601-4911-85C3-1F73FB15CDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{010A04DD-3601-4911-85C3-1F73FB15CDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{010A04DD-3601-4911-85C3-1F73FB15CDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE71C567-DABF-4B02-8F8E-BEF156EEA10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE71C567-DABF-4B02-8F8E-BEF156EEA10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE71C567-DABF-4B02-8F8E-BEF156EEA10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE71C567-DABF-4B02-8F8E-BEF156EEA10E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{B170BDA6-E992-4ECE-9D8A-9004DC443BC7} = {2C651323-A65A-4A76-89CE-8316A009494A}
 		{47A2287F-2616-4953-B5FC-C6A7B2149707} = {6F3E51D3-36B5-4211-B817-74C6A883B0C5}
 		{010A04DD-3601-4911-85C3-1F73FB15CDFD} = {47A2287F-2616-4953-B5FC-C6A7B2149707}
+		{AE71C567-DABF-4B02-8F8E-BEF156EEA10E} = {47A2287F-2616-4953-B5FC-C6A7B2149707}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3ED057B1-820A-48CA-A31F-4BE40FA16A64}
