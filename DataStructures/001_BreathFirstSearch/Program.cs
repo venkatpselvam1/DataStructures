@@ -39,12 +39,12 @@ namespace _001_BreathFirstSearch
                 }
             }
             bool[] rec;
-            public void Dfs(int n)
+            public void Bfs(int n)
             {
                 rec = new bool[graph.GetLength(0)];
-                DfsRec(n);
+                BfsRec(n);
             }
-            private void DfsRec(int n)
+            private void BfsRec(int n)
             {
                 var q = new Queue<int>();
                 q.Enqueue(n);
@@ -75,7 +75,7 @@ namespace _001_BreathFirstSearch
             graph.AddEdge(4, 1);
             graph.AddEdge(3, 1);
             graph.Print();
-            graph.Dfs(4);
+            graph.Bfs(4);
         }
     }
 }
