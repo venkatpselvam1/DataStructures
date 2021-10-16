@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_BreathFirstSearch_WithA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_DepthFirstSearch", "003_DepthFirstSearch\003_DepthFirstSearch.csproj", "{3597C48D-6DC9-4966-A2E5-D21B9F9D8DDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_DepthFirstSearch_AdjacencyList", "004_DepthFirstSearch_AdjacencyList\004_DepthFirstSearch_AdjacencyList.csproj", "{BCFC094B-9FF5-4742-BD24-29AF7A97B040}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{3597C48D-6DC9-4966-A2E5-D21B9F9D8DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3597C48D-6DC9-4966-A2E5-D21B9F9D8DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3597C48D-6DC9-4966-A2E5-D21B9F9D8DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCFC094B-9FF5-4742-BD24-29AF7A97B040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFC094B-9FF5-4742-BD24-29AF7A97B040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFC094B-9FF5-4742-BD24-29AF7A97B040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFC094B-9FF5-4742-BD24-29AF7A97B040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +127,7 @@ Global
 		{B1D8B3B0-C8C8-4A34-ACAB-42A01B63F2FF} = {EBAFB443-0049-4952-BDA5-972405000319}
 		{C300AF02-2296-42F8-A1C9-87D9B9FF8718} = {EBAFB443-0049-4952-BDA5-972405000319}
 		{3597C48D-6DC9-4966-A2E5-D21B9F9D8DDA} = {EBAFB443-0049-4952-BDA5-972405000319}
+		{BCFC094B-9FF5-4742-BD24-29AF7A97B040} = {EBAFB443-0049-4952-BDA5-972405000319}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3ED057B1-820A-48CA-A31F-4BE40FA16A64}
