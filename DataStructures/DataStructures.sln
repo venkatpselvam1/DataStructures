@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_PriorityQueue", "002_Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_PriorityQueue_Dotnet", "003_PriorityQueue_Dotnet\003_PriorityQueue_Dotnet.csproj", "{7FD50258-B4CB-40CB-BC0D-003FE44F60CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_ConcatenatedWords", "001_ConcatenatedWords\001_ConcatenatedWords.csproj", "{43A5745C-188C-4791-91BE-786C069F8A79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{7FD50258-B4CB-40CB-BC0D-003FE44F60CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FD50258-B4CB-40CB-BC0D-003FE44F60CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FD50258-B4CB-40CB-BC0D-003FE44F60CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A5745C-188C-4791-91BE-786C069F8A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A5745C-188C-4791-91BE-786C069F8A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A5745C-188C-4791-91BE-786C069F8A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A5745C-188C-4791-91BE-786C069F8A79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{D6D189DF-E54A-48D2-A77D-49B76DE6509C} = {91B7C62E-E6F9-45E6-A398-4E637F2C104D}
 		{CEB513C0-DFFE-4B38-AB0E-84D9F154274C} = {91B7C62E-E6F9-45E6-A398-4E637F2C104D}
 		{7FD50258-B4CB-40CB-BC0D-003FE44F60CA} = {91B7C62E-E6F9-45E6-A398-4E637F2C104D}
+		{43A5745C-188C-4791-91BE-786C069F8A79} = {2C651323-A65A-4A76-89CE-8316A009494A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3ED057B1-820A-48CA-A31F-4BE40FA16A64}
