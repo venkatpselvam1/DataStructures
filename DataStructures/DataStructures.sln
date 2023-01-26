@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31112.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{8BF0CAF7-1005-4C93-95D1-FF1E7DBB538F}"
 EndProject
@@ -50,6 +50,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_DepthFirstSearch", "003_DepthFirstSearch\003_DepthFirstSearch.csproj", "{3597C48D-6DC9-4966-A2E5-D21B9F9D8DDA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_DepthFirstSearch_AdjacencyList", "004_DepthFirstSearch_AdjacencyList\004_DepthFirstSearch_AdjacencyList.csproj", "{BCFC094B-9FF5-4742-BD24-29AF7A97B040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "003_GraphTraversalWithMinCost", "003_GraphTraversalWithMinCost", "{DC58A7DC-D2C5-40C3-A859-4096505BDD89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_ProblemStatement", "001_ProblemStatement\001_ProblemStatement.csproj", "{373B7E9D-8412-44B6-A025-C9D7338312F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Graph_DFS_With_DP", "002_Graph_DFS_With_DP\002_Graph_DFS_With_DP.csproj", "{F9A4382A-61EE-4403-A3D1-4EBCB8AE0B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_TestCases", "001_TestCases\001_TestCases.csproj", "{C24151EB-1208-46F1-9265-46CFB64C0271}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +117,18 @@ Global
 		{BCFC094B-9FF5-4742-BD24-29AF7A97B040}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCFC094B-9FF5-4742-BD24-29AF7A97B040}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCFC094B-9FF5-4742-BD24-29AF7A97B040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373B7E9D-8412-44B6-A025-C9D7338312F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373B7E9D-8412-44B6-A025-C9D7338312F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373B7E9D-8412-44B6-A025-C9D7338312F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373B7E9D-8412-44B6-A025-C9D7338312F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A4382A-61EE-4403-A3D1-4EBCB8AE0B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A4382A-61EE-4403-A3D1-4EBCB8AE0B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A4382A-61EE-4403-A3D1-4EBCB8AE0B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A4382A-61EE-4403-A3D1-4EBCB8AE0B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24151EB-1208-46F1-9265-46CFB64C0271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24151EB-1208-46F1-9265-46CFB64C0271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24151EB-1208-46F1-9265-46CFB64C0271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24151EB-1208-46F1-9265-46CFB64C0271}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -128,6 +148,10 @@ Global
 		{C300AF02-2296-42F8-A1C9-87D9B9FF8718} = {EBAFB443-0049-4952-BDA5-972405000319}
 		{3597C48D-6DC9-4966-A2E5-D21B9F9D8DDA} = {EBAFB443-0049-4952-BDA5-972405000319}
 		{BCFC094B-9FF5-4742-BD24-29AF7A97B040} = {EBAFB443-0049-4952-BDA5-972405000319}
+		{DC58A7DC-D2C5-40C3-A859-4096505BDD89} = {6F3E51D3-36B5-4211-B817-74C6A883B0C5}
+		{373B7E9D-8412-44B6-A025-C9D7338312F3} = {DC58A7DC-D2C5-40C3-A859-4096505BDD89}
+		{F9A4382A-61EE-4403-A3D1-4EBCB8AE0B0D} = {DC58A7DC-D2C5-40C3-A859-4096505BDD89}
+		{C24151EB-1208-46F1-9265-46CFB64C0271} = {DC58A7DC-D2C5-40C3-A859-4096505BDD89}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3ED057B1-820A-48CA-A31F-4BE40FA16A64}
