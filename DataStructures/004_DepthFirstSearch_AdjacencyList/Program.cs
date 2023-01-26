@@ -60,7 +60,7 @@ namespace _004_DepthFirstSearch_AdjacencyList
             graph.AddEdge(1, 4);
             graph.AddEdge(2, 3);
             graph.AddEdge(3, 4);
-
+            Console.WriteLine("DFS for 3");
             graph.Dfs(3);
         }
     }

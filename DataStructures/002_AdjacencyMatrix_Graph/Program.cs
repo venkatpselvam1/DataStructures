@@ -14,6 +14,10 @@ namespace _002_AdjacencyMatrix_Graph
             public Graph(int n)
             {
                 this.graph = new int[n, n];
+                for(int i = 0; i < n; i++)
+                {
+                    this.graph[i, i] = 1;
+                }
             }
             public void AddEdge(int a, int b)
             {

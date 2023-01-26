@@ -30,6 +30,7 @@ namespace _002_BreathFirstSearch_WithAdjacencyList
             }
             public void Bfs(int n)
             {
+                Console.WriteLine("BFS for n");
                 var queue = new Queue<int>();
                 rec.Add(n);
                 queue.Enqueue(n);

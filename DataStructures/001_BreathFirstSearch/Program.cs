@@ -14,6 +14,10 @@ namespace _001_BreathFirstSearch
             public Graph(int n)
             {
                 this.graph = new int[n, n];
+                for (int i = 0; i < n; i++)
+                {
+                    this.graph[i, i] = 1;
+                }
             }
             public void AddEdge(int a, int b)
             {
@@ -46,6 +50,7 @@ namespace _001_BreathFirstSearch
             }
             private void BfsRec(int n)
             {
+                Console.WriteLine("BFS for "+n);
                 var q = new Queue<int>();
                 q.Enqueue(n);
                 rec[n] = true;

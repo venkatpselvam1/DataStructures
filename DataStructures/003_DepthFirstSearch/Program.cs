@@ -15,6 +15,10 @@ namespace _003_DepthFirstSearch
             public Graph(int n)
             {
                 this.graph = new int[n, n];
+                for (int i = 0; i < n; i++)
+                {
+                    this.graph[i, i] = 1;
+                }
                 this.rec = new bool[n];
             }
             public void AddEdge(int a, int b)
@@ -64,6 +68,8 @@ namespace _003_DepthFirstSearch
             graph.AddEdge(4, 0);
             graph.AddEdge(4, 1);
             graph.AddEdge(3, 1);
+            graph.Print();
+            Console.WriteLine("DFS for 2");
             graph.Dfs(2);
         }
     }
