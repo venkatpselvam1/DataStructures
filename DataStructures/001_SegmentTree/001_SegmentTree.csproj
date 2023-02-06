@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{034238D0-4C5B-4B75-AA2E-F751738CA89F}</ProjectGuid>
+    <ProjectGuid>{C94698B4-2D46-4C1D-8368-A09D8B83DEF7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_004_DijkstraAlgo</RootNamespace>
-    <AssemblyName>004_DijkstraAlgo</AssemblyName>
+    <RootNamespace>_001_SegmentTree</RootNamespace>
+    <AssemblyName>001_SegmentTree</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,12 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\001_PriorityQueue\001_PriorityQueue.csproj">
-      <Project>{D6D189DF-E54A-48D2-A77D-49B76DE6509C}</Project>
-      <Name>001_PriorityQueue</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
