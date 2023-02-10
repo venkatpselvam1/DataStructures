@@ -75,6 +75,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "005_FenwickTreeOrBinaryInde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryIndexedTree", "BinaryIndexedTree\BinaryIndexedTree.csproj", "{EFC3CDFB-A8C7-4EB3-A6BF-95807680FC66}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "003_TreeProblems", "003_TreeProblems", "{EAE2C9D8-D156-4AD4-B6B8-A48728CE68CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_FileSystemCopyPathOptimization", "001_FileSystemCopyPathOptimization\001_FileSystemCopyPathOptimization.csproj", "{07A3A56C-428A-4D96-92AD-EECBF88307E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,10 @@ Global
 		{EFC3CDFB-A8C7-4EB3-A6BF-95807680FC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFC3CDFB-A8C7-4EB3-A6BF-95807680FC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFC3CDFB-A8C7-4EB3-A6BF-95807680FC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A3A56C-428A-4D96-92AD-EECBF88307E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A3A56C-428A-4D96-92AD-EECBF88307E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A3A56C-428A-4D96-92AD-EECBF88307E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A3A56C-428A-4D96-92AD-EECBF88307E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -196,6 +204,8 @@ Global
 		{C94698B4-2D46-4C1D-8368-A09D8B83DEF7} = {FE07363C-1D4F-4E4F-B4DE-55503E456C7A}
 		{4EF46CDA-23F1-48F3-9FA1-12372F0E4791} = {6868BCEA-C1E6-490B-8BCA-E150FB39F302}
 		{EFC3CDFB-A8C7-4EB3-A6BF-95807680FC66} = {4EF46CDA-23F1-48F3-9FA1-12372F0E4791}
+		{EAE2C9D8-D156-4AD4-B6B8-A48728CE68CD} = {6868BCEA-C1E6-490B-8BCA-E150FB39F302}
+		{07A3A56C-428A-4D96-92AD-EECBF88307E1} = {EAE2C9D8-D156-4AD4-B6B8-A48728CE68CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3ED057B1-820A-48CA-A31F-4BE40FA16A64}
