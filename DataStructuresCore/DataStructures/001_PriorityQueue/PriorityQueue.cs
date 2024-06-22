@@ -1,92 +1,55 @@
 namespace _001_PriorityQueue;
-
 public class VenkatPriorityQueue<T>
 {
-    Node<T>[] arr = new Node<T>[50];
-    int emptyInd = 0;
-    public int Count
+    Node<T> Head;
+    public int Count { get; private set; }
+    public void Enqueue(T newVal, int priority)
     {
-        get
-        {
-            return emptyInd;
-        }
-    }
-    public void Enqueue(T val, int priority)
-    {
+        Count++;
         var newN = new Node<T>();
-        newN.Priotiy = priority;
-        newN.Val = val;
-        arr[emptyInd] = newN;
-        emptyInd++;
-        ShiftUp(emptyInd-1);
+        newN.Value = newVal;
+        newN.Priority = priority;
+        if (Head == null)
+        {
+            Head = newN;
+        }
+        else if (Head.Priority < newN.Priority)
+        {
+            newN.Next = Head;
+            Head = newN;
+        }
+        else
+        {
+            var curr = Head;
+            while (curr != null)
+            {
+                if (curr.Next == null || curr.Next.Priority < newN.Priority)
+                {
+                    newN.Next = curr.Next;
+                    curr.Next = newN;
+                    break;
+                }
+                curr = curr.Next;
+            }
+        }
     }
 
     public T Dequeue()
     {
-        var val = arr[0].Val;
-        arr[0] = arr[emptyInd-1];
-        emptyInd--;
-        ShiftDown(0);
+        var val = Head.Value;
+        Head = Head.Next;
+        Count--;
         return val;
     }
+
     public T Peek()
     {
-        return arr[0].Val;
-    }
-    private void ShiftUp(int ind)
-    {
-        if (ind == 0)
-        {
-            return;
-        }
-        var parent = GetParent(ind);
-        ShiftDown(parent);
-        ShiftUp(parent);
-    }
-    private void ShiftDown(int ind)//heapify node
-    {
-        var largestInd = ind;
-        var left = GetLeft(ind);
-        var right = GetRight(ind);
-        if (left < emptyInd && arr[left].Priotiy > arr[largestInd].Priotiy)
-        {
-            largestInd = left;
-        }
-        if (right < emptyInd && arr[right].Priotiy > arr[largestInd].Priotiy)
-        {
-            largestInd = right;
-        }
-        if (largestInd != ind)
-        {
-            Swap(largestInd, ind);
-            ShiftDown(largestInd);
-        }
-    }
-    private int GetLeft(int n)
-    {
-        return 2 * n + 1;
-    }
-    private int GetRight(int n)
-    {
-        return 2 * n + 2;
-    }
-    private int GetParent(int n)
-    {
-        return (n-1)/2;
-    }
-    public void Swap(int i, int j)
-    {
-        if (i != j)
-        {
-            var temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-        }
+        return Head.Value;
     }
 }
-
 public class Node<T>
 {
-    public int Priotiy;
-    public T Val;
+    public T Value;
+    public int Priority;
+    public Node<T> Next;
 }
